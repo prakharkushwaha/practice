@@ -1,0 +1,40 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.search-container {
+  text-align: center;
+  margin: 20px;
+}
+
+#searchInput {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+
+#searchResults {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+#searchResults li {
+  margin: 5px;
+  cursor: pointer;
+  color: #3498db;
+}
+
+#searchResults li:hover {
+  text-decoration: underline;
+}
+/* Add to your existing CSS in `styles.css` */
+
+.hidden {
+  display: none;
+}
+.content {
+  display: none;
+}
